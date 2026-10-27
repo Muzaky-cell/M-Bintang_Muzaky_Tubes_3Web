@@ -1,0 +1,144 @@
+body{
+    overflow: scroll;
+}
+.utama{
+    background-color: black;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(214, 211, 211);
+    border-radius: 8px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 12px;
+}
+
+.menu{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(55, 55, 168);
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.search input{
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid #444
+}
+
+.search button{
+    border: none;
+    border-radius: 8px;
+    background: rgb(154, 156, 158);
+    color: rgb(223, 218, 218);
+    cursor: pointer;
+}
+
+.taskBar{
+    gap: 30px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tb{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    color: rgb(172, 167, 167);
+    text-decoration: none;
+    border-right: 1px solid rgb(255, 255, 255, 0.1);
+    font-family: sans-serif;
+}
+
+.tb i{
+    font-size: 18px;
+}
+
+.tb:hover{
+    color: rgb(29, 111, 179);
+    background: oklch(31.692% 0.03473 263.903);
+    border-radius: 8px;
+}
+
+.article{
+    display: flex;
+    color: rgb(151, 149, 149);
+    font-family: sans-serif;
+}
+
+.akun{
+    margin-left: 20px;
+}
+
+.pilihan1 img{
+    width: 250px;
+    border-radius: 8px;
+
+}
+
+
+
+.logo_bawah img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+footer{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(29, 111, 179);
+    margin: 0;
+    margin-top: 50px;
+}
+
+.menu_bawah{
+    margin-top: 45px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.myIG{
+    margin-top: 12px;
+    text-align: center;
+    margin-right: 12px;
+}
